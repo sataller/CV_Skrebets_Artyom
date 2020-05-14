@@ -73,5 +73,10 @@
 a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
     font-weight: 600;
+}
+
+.loading {
+    font-size: small;
 }

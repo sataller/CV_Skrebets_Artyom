@@ -1,8 +1,9 @@
 const ruLanguageId = document.getElementById("ru");
 const engLanguageId = document.getElementById("eng");
-
+const linkedInHref = document.getElementById("linkedIn");
 const ruLanguageContent = document.getElementById("ruLanguage");
 const engLanguageContent = document.getElementById("engLanguage");
+
 
 const changeLanguages = (e) => {
     if (e.currentTarget.className == "changeLanguage active") {
@@ -18,10 +19,14 @@ const changeLanguages = (e) => {
             engLanguageContent.style.display = "block";
         }
     }
+}
 
-
+const redirect = (e) => {
+    window.location.href = "redirectToLinkedIn.html";
+    debugger
 }
 
 ruLanguageId.addEventListener("click", changeLanguages)
 engLanguageId.addEventListener("click", changeLanguages)
+linkedInHref.addEventListener("click", redirect)
 

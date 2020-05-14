@@ -1,0 +1,77 @@
+.content {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.changeLanguage {
+    cursor: pointer;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.ru {
+
+}
+
+.en {
+    display: none;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+}
+
+.info span {
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 30px;
+}
+
+.link {
+    background-color: #ff8853;
+    cursor: pointer;
+}
+
+.important {
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+.profile {
+    margin: 0 auto;
+    display: grid;
+    width: 400px;
+    grid-template-columns: 130px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "a c";
+}
+
+.contacts {
+    margin-top: 30px;
+    grid-area: c;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
